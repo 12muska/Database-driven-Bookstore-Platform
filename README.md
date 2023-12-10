@@ -7,7 +7,8 @@ Step 1: Database Setup
 Create a MySQL database and tables for books, customers, orders, and reviews. You can use a MySQL client like MySQL Workbench or a command-line interface.
 
 sql
-Copy code
+
+
 -- Create the bookstore database
 CREATE DATABASE bookstore;
 
@@ -64,7 +65,8 @@ Step 2: Python Script
 Create a Python script (app.py) to interact with the MySQL database and implement basic functionality. This script will include functions for viewing books, registering customers, placing orders, filtering books by genre, and sorting books.
 
 python
-Copy code
+
+
 import mysql.connector
 from getpass import getpass
 
